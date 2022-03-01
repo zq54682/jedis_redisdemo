@@ -19,6 +19,7 @@ public class JedisDemo1 {
         String get = jedis.get("k2");
         System.out.println(set);
         System.out.println(get);
+        jedis.close();
 
     }
 
