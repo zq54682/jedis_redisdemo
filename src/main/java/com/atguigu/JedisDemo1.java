@@ -17,10 +17,7 @@ public class JedisDemo1 {
 
         String set = jedis.set("k1", "v1");
         String get = jedis.get("k2");
-        System.out.println(set);
-        System.out.println(get);
-        System.out.println(set);
-        System.out.println(get);
+        
         jedis.close();
 
     }
